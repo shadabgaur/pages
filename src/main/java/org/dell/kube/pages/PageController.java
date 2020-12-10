@@ -5,6 +5,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
+import ch.qos.logback.classic.Logger;
+import org.slf4j.LoggerFactory;
+
 @RestController@RequestMapping("/pages")
 public class PageController {
     private IPageRepository pageRepository;
