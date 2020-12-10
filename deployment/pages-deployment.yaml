@@ -24,7 +24,7 @@ spec:
           hostPath:
             path: /dalston
       containers:
-        - image: shadabgaur/pages:monitor
+        - image: shadabgaur/pages:distributed
           name: pages
           ports:
             - containerPort: 8080
